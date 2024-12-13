@@ -40,15 +40,15 @@ int add(int a, int b){
 
 int main(int argc, char* argv[])
 {
-    QApplication app(argc, argv); // Initialize the Qt application
+    QApplication app(argc, argv);
 
-    MainWindow mainWindow;        // Create the main window
-    mainWindow.show();            // Show the main window
+    MainWindow mainWindow;
+    mainWindow.show();
 
 
     //cout << cv::cuda::getCudaEnabledDeviceCount() << endl;
 
-    return app.exec();            // Enter the event loop
+    return app.exec();
 
 
 
