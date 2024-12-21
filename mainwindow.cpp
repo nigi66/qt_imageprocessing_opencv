@@ -488,7 +488,7 @@ void MainWindow::onObjectDetection()
             break;
         }
 
-        imgpro.qrCodeDetection(frame);
+        imgpro.detectHand(frame);
 
         displayFrame(frame);
 

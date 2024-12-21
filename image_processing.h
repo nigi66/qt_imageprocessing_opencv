@@ -28,6 +28,7 @@ public:
     void object_detection(Mat &frame);
     void object_detection_hog(Mat &frame);
     void qrCodeDetection(Mat &frame);
+    void detectHand(const Mat& frame);
 
 };
 

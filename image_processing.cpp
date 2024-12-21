@@ -243,3 +243,6 @@ void image_processing::qrCodeDetection(Mat &frame)
 }
 
 
+// ////////////////////////////
+
+
